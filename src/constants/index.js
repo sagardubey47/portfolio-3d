@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -14,15 +10,19 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  eventSpeaker,
+  Nice,
+  Workshop,
+  deltatreLogo,
+  wakefitLogo,
+  newtonLogo,
+  hotel,
+  youtubeClone,
+  doodleBooks,
+  AK,
+  Lach,
+  Saumitra,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Tech Event speaker",
+    icon: eventSpeaker,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Public Speaking",
+    icon: Nice,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Workshop speaker",
+    icon: Workshop,
   },
 ];
 
@@ -97,74 +93,57 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Three JS",
+    icon: threejs,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "figma",
+    icon: figma,
   },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Deltatre",
+    icon: deltatreLogo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
+      "developed features like Enhanced Search, Live Content Display, Advanced Hero Row and Diva Player Integration, etc.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Associate Software Engineer",
+    company_name: "Wakefit",
+    icon: wakefitLogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2021 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked on Customer Relation Software(CRM) using React.js and Node.js",
+      "Worked on Return and Replacement(RNR) Automation module",
+      "Contribution in Consumer Website revamp, major role played in  Product Details Pages(PDP), Authentication module, Checkout Page, Accounts Module, Reviews and Rating, etc.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web Developer Intern",
+    company_name: "Newton School",
+    icon: newtonLogo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2020 - May 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Data Structures and Algorithms using Java programming language.",
+      "Participated in various coding contest organized by platform.",
+      "Full Stack Web Development along with problem solving.",
+      "Done various projects based on web technologies like Bomberman game, Stop Watch, Calculator, Tic-Tac-Toe game,Weather App, etc.",
     ],
   },
 ];
@@ -172,56 +151,56 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Sagar is a very smart and switch in developer who has a very impressive pace of learning new things and he’s been a great addition for the Ref apps squad since day 1. He is never afraid of a challenge and would always be the first person to put this hand up to solve any tough problems which others might try to avoid. He’d be a great asset to any team",
+    name: "Abhinesh Kharel",
+    designation: "Product Owner",
+    company: "Deltatre",
+    image: AK,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "From my first meeting with Sagar, I recognised his standout talent immediately. I hired him as a Software Engineer to breathe life back into an orphaned product in 2022 that was critical to our company. Sagar quickly got up to speed with the project. Sagar always brought to our meetings a smile and a positive attitude which boosted team morale and confidence.",
+    name: "Lachlan Grant",
+    designation: "Tech lead",
+    company: "Deltatre",
+    image: Lach,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "We’ve joined our hands on several modules, and Sagar is one of the best people I had as a partner. Feels fortunate working with him in a very interesting and complicated project. The amount of problem solving skills he has is commendable and will surely take him to new heights.  I highly recommend his expertise to any person looking for an frontend engineer.",
+    name: "Saumitra Tiwari",
+    designation: "SDE 2",
+    company: "Wakefit",
+    image: Saumitra,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Hotel Website",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web application that allows user to browse through wide range of Rooms.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "styled components",
         color: "pink-text-gradient",
       },
+      {
+        name: "contentful ",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hotel,
+    source_code_link: "https://github.com/sagardubey47/hotel-reservation",
+    project_link: "https://paradise-hotel-react.netlify.app/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "YouTube Clone",
+    description: "An attempt to mock YouTube using it's open Api endpoints.",
     tags: [
       {
         name: "react",
@@ -232,33 +211,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "axios",
         color: "pink-text-gradient",
       },
+      {
+        name: "OAuth",
+        color: "text-indigo-700",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: youtubeClone,
+    project_link: "https://clone-7502d.web.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Doodle Books",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An Online Book Store that fetches books from google book store.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux",
         color: "pink-text-gradient",
       },
+      {
+        name: "google api",
+        color: "text-rose-500",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: doodleBooks,
+    project_link: "https://tiger-survey-2e48d.web.app/",
   },
 ];
 

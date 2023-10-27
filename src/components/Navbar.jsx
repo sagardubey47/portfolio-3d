@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { useState } from "react";
-import { logo, menu, close } from "../assets";
+import { letter, menu, close } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
             window.scroll(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={letter} alt="logo" className="w-9 h-9 object-contain" />
           <p className="flex text-white text-[18px] font-bold cursor-pointer">
             Sagar &nbsp; <span className="sm:block hidden ">Dubey</span>
           </p>
