@@ -13,6 +13,7 @@ import {
   threejs,
   eventSpeaker,
   Nice,
+  Workshop,
   deltatreLogo,
   wakefitLogo,
   newtonLogo,
@@ -48,10 +49,10 @@ const services = [
     title: "Public Speaking",
     icon: Nice,
   },
-  // {
-  //   title: "Workshop speaker",
-  //   icon: Workshop,
-  // },
+  {
+    title: "Workshop speaker",
+    icon: Workshop,
+  },
 ];
 
 const technologies = [

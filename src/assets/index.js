@@ -18,7 +18,7 @@ import threejs from "./tech/threejs.svg";
 import letter from "./letter-s.png";
 import eventSpeaker from "./eventSpeaker.jpeg";
 import Nice from "./Nice.jpeg";
-// import Workshop from "./workshop.jpg";
+import Workshop from "./workshop.jpeg";
 import hotel from "./hotelWeb.png";
 import deltatreLogo from "./deltatreLogo.png";
 import wakefitLogo from "./wakefitLogo.png";
@@ -49,6 +49,7 @@ export {
   letter,
   eventSpeaker,
   Nice,
+  Workshop,
   hotel,
   youtubeClone,
   doodleBooks,
