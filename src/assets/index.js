@@ -1,4 +1,3 @@
-// import logo from "./logo.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -20,7 +19,7 @@ import letter from "./letter-s.png";
 import eventSpeaker from "./eventSpeaker.jpeg";
 import Nice from "./Nice.jpeg";
 import Workshop from "./workshop.jpg";
-import hotel from "./hotel.png";
+import hotel from "./hotelWeb.png";
 import deltatreLogo from "./deltatreLogo.png";
 import wakefitLogo from "./wakefitLogo.png";
 import newtonLogo from "./newtonLogo.png";
