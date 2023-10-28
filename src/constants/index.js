@@ -13,7 +13,6 @@ import {
   threejs,
   eventSpeaker,
   Nice,
-  Workshop,
   deltatreLogo,
   wakefitLogo,
   newtonLogo,

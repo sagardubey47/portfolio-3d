@@ -49,7 +49,6 @@ export {
   letter,
   eventSpeaker,
   Nice,
-  // Workshop,
   hotel,
   youtubeClone,
   doodleBooks,
