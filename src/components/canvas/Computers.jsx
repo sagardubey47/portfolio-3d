@@ -8,7 +8,14 @@ import useViewPortSize from "../../utils/useViewPortSize";
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
-  return (
+  return isMobile ? (
+    <primitive
+      object={computer.scene}
+      scale={isMobile ? 0.5 : 0.75}
+      position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+      rotation={[-0.01, -0.2, -0.1]}
+    />
+  ) : (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
@@ -20,12 +27,12 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <pointLight intensity={1} />
-      {/* <primitive
+      <primitive
         object={computer.scene}
         scale={isMobile ? 0.5 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
-      /> */}
+      />
     </mesh>
   );
 };
