@@ -29,6 +29,7 @@ import doodleBooks from "./doodlebooks.png";
 import AK from "./Ak.png";
 import Saumitra from "./Saumitra.png";
 import Lach from "./Lach.png";
+import Me from "./me.png";
 
 export {
   github,
@@ -60,4 +61,5 @@ export {
   AK,
   Lach,
   Saumitra,
+  Me,
 };

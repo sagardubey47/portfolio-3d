@@ -4,18 +4,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 import useViewPortSize from "../../utils/useViewPortSize";
+import { Me, Workshop } from "../../assets";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
-  return isMobile ? (
-    <primitive
-      object={computer.scene}
-      scale={isMobile ? 0.5 : 0.75}
-      position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-      rotation={[-0.01, -0.2, -0.1]}
-    />
-  ) : (
+  return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
@@ -40,7 +34,15 @@ const Computers = ({ isMobile }) => {
 const ComputersCanvas = () => {
   const isMobile = useViewPortSize();
 
-  return (
+  return isMobile ? (
+    <div className="absolute bottom-28  w-full flex justify-center items-center">
+      <img
+        alt="profile"
+        src={Me}
+        className="w-[250px] h-[250px] rounded-full inset-x-auto"
+      />
+    </div>
+  ) : (
     <Canvas
       frameloop="demand"
       shadows
