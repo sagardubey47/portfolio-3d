@@ -11,8 +11,10 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import useViewPortSize from "./utils/useViewPortSize";
 
 function App() {
+  const isMobile = useViewPortSize();
   return (
     <BrowserRouter>
       <div className="raltive z-0 bg-primary">
@@ -22,7 +24,7 @@ function App() {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {!isMobile && <Tech />}
         <Works />
         <Feedbacks />
         <div className="relative z-0">
